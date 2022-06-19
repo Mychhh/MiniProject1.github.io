@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.landing-page{
+    height: 100vh;
+    background-color: #141E27;
+}
+
+.theNavbar{
+    background-color: #203239;
+}
+
+.theNavbarLogo{
+    color: #EEEDDE;
+    text-decoration: none;
+}
+.theNavbarLogo:hover{
+    color: #E0DDAA;
+    text-decoration: underline;
+}
+
+.theNavbarText{
+   color: #EEEDDE;
+   border-radius: 5px;
+   font-size: large;
+}
+#theNavbarTextBG:hover
+{
+    color: #203239;
+    background-color: #E0DDAA;
+    padding-top: 6px;
+    transition: all .2s linear;
+    border-radius:10px;
+}
+
+.LandingText{
+    color: #EEEDDE; 
+    font-weight: bold;
+}
+

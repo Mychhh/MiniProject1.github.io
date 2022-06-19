@@ -1,0 +1,23 @@
+Git Resources
+
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+https://www.w3schools.com/git/default.asp
+
+-git sir bryl
+https://medium.com/geekculture/learn-to-use-git-in-10-minutes-53e9a17bf8c2
+
+-git advanced tricks
+https://www.youtube.com/watch?v=ecK3EnyGD8o
+
+-Figma Desgining
+https://coursevania.com/courses/complete-figma-web-design-courseui-ux-design-with-projects/
+
+-Adding a Messenger Chat Plugin on your Website
+https://bryllim.medium.com/adding-a-messenger-chat-plugin-on-your-website-4fa5466215c6
+
+-Colors
+#EEEDDE - For text
+#E0DDAA - Background of text
+#203239 - Components
+#141E27 - Layouts 
