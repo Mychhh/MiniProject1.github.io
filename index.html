@@ -18,14 +18,14 @@
 <body>
     
 <div class="landing-page">
-    <nav class = "theNavbar navbar navbar-expand-md px-4 py-3">
+    <nav class = "theNavbar navbar navbar-expand-md px-4 py-3 shadow">
         
         <a href = "#" class="d-flex align-items-center theNavbarLogo">
             <img src = "./Images/Icon/apple-touch-icon.png" width="60" alt = "Logo"> 
             <h4 class="ms-3 theNavbarHeader">Home Page</h4>            
         </a>
 
-        <button 
+        <button
             class="navbar-toggler" 
             type="button" 
             data-bs-toggle="collapse"
@@ -39,29 +39,33 @@
 
         <div class = "collapse navbar-collapse" id = "navbarNAV">
             <ul class = "navbar-nav ms-auto">
-                <li class = "nav-item active px-2">
-                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "AboutPage.html"> About</a>
+                <li class = "nav-item active lg-px-0 xxl-px-2">
+                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> About</a>
                 </li>
                 <li class = "nav-item active">
-                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "ContactsPage.html"> Contact</a>
+                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Contact</a>
                 </li>
-                <li class = "nav-item active px-2">
-                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "ServicesPage.html"> Services</a>
+                <li class = "nav-item active lg-px-0 xxl-px-2">
+                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Services</a>
                 </li>
-                <li class = "nav-item active px-2">
-                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "Login.html"> Login</a>
+                <li class = "nav-item active lg-px-0 xxl-px-2">
+                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Login</a>
                 </li>
                 <li class = "nav-item active">
-                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "RegistrationPage.html"> Register</a>
+                    <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Register</a>
                 </li>
             </ul>
         </div>
         
     </nav>
 
-    <section class="LandingText">
-        <h1>Organize your Code</h1>
-        <p>code like a pro</p>
+    <section class="container theSection">
+        <div id="landingText">
+            <h1 class="mb-3">Organize your Code</h1>
+            <p>From web developers to app developers, Git is useful to anyone who writes code or track changes to files. So what’s it all about and why should you start using it?</p>
+            <button type="button" class="btn btn-sm" id="checkButton">Check it out</button>
+        </div>
+        <img src="./Images/git33.png" class="img-fluid" id="gitPic" alt="git">
     </section>
 
 </div>

@@ -6,11 +6,16 @@
 }
 .landing-page{
     height: 100vh;
-    background-color: #141E27;
+    background-color: #203239;
 }
 
 .theNavbar{
-    background-color: #203239;
+    background-color: #141E27;
+}
+
+
+.navbar-toggler span {
+    padding:7px;
 }
 
 .theNavbarLogo{
@@ -25,7 +30,7 @@
 .theNavbarText{
    color: #EEEDDE;
    border-radius: 5px;
-   font-size: large;
+   font-size: large;    
 }
 #theNavbarTextBG:hover
 {
@@ -36,8 +41,63 @@
     border-radius:10px;
 }
 
-.LandingText{
+#landingText{
     color: #EEEDDE; 
     font-weight: bold;
+}
+
+.theSection{
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    height: 60vh;
+
+    column-gap: 10px;
+}
+
+#checkButton{
+    background: #E0DDAA;
+    color: #203239;
+}
+#LandingText{
+    grid-column: 1/3;
+    padding-right: 30px;
+}
+
+#gitPic{
+    grid-column: 2/3;
+    padding-top: 50px;
+
+    object-fit: cover;
+}
+
+#checkButton:hover
+{
+    background: #141E27;
+    color:#E0DDAA;
+}
+
+/*When user is in md size screen*/
+@media screen and (max-width: 600px) {
+    .theSection{
+        grid-template-columns: 1fr;
+    }
+
+    #LandingText{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-top: 100px;
+        padding-right: 0px;
+        text-align:center;
+    }
+    #LandingTextp, p, h1{
+        text-align:center;
+    }
+    
+    #gitPic{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-top: 0px;
+    }
 }
 

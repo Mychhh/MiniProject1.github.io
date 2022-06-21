@@ -10,6 +10,8 @@ https://medium.com/geekculture/learn-to-use-git-in-10-minutes-53e9a17bf8c2
 -git advanced tricks
 https://www.youtube.com/watch?v=ecK3EnyGD8o
 
+https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it#:~:text=Git%20is%20the%20most%20commonly%20used%20version%20control,people%20to%20all%20be%20merged%20into%20one%20source.
+
 -Figma Desgining
 https://coursevania.com/courses/complete-figma-web-design-courseui-ux-design-with-projects/
 
@@ -19,5 +21,5 @@ https://bryllim.medium.com/adding-a-messenger-chat-plugin-on-your-website-4fa546
 -Colors
 #EEEDDE - For text
 #E0DDAA - Background of text
-#203239 - Components
 #141E27 - Layouts 
+#203239 - Components
