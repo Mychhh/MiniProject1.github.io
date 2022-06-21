@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .landing-page{
+    position: relative;
     height: 100vh;
     background-color: #203239;
 }
@@ -50,7 +51,7 @@
     display: grid;
     grid-template-columns: 60% 40%;
 
-    height: 60vh;
+    height: 350px;
     column-gap: 10px;
 
     padding-top: 6rem;
@@ -77,10 +78,13 @@
     color: #EEEDDE;
 }
 
-
 #gitPic{
     grid-column: 2/3;
     object-fit: cover;
+}
+
+svg{
+    display: block;
 }
 
 /*When user is in md size screen*/
@@ -106,6 +110,10 @@
         height: 20rem;
         padding-left: 5rem;
     }
+
+    svg{
+        padding-top: 150px;
+    }
 }
 /*for extra samll screen*/
 @media screen and (max-width: 415px) {
@@ -113,12 +121,16 @@
     .theSection{
         padding-top: 2rem;
     }
-    
 
-    #gitPic{
-        padding-left: 0rem;
-        padding-top: 5rem;
-        column-gap: 30px;
+    svg{
+        padding-top: 150px;
     }
 }
-
+@media screen and (min-width: 376px) {
+    #gitPic{
+        padding-left: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        column-gap: 30px;
+    }    
+}
