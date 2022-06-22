@@ -3,3 +3,6 @@ https://www.codingninjas.com/blog/2021/07/16/explained-css-display-inline/#:~:te
 
 -sticky fixed
 https://youtu.be/8TyoihVGErI
+
+-flex
+https://semicolon.dev/tutorial/css/complete-css-flex-tutorial#:~:text=display%3Aflex%20Unlike%20many%20other%20CSS%20properties%2C%20in%20Flex,Elements%20placed%20inside%20this%20container%20are%20called%20items.
