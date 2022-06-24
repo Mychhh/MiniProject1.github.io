@@ -233,9 +233,17 @@ hr{
     background: #38444d;
     padding: 1rem;
 }
-
+.theParagraph{
+    background: #38444d;
+    border-radius: 10px;
+}
+.theParagraph p{
+    border-radius: 10px;
+}
 .theSyntax{
     border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .theSyntax p{
     background: #203239;
@@ -266,6 +274,11 @@ hr{
     background: #38444d;
     padding: 1rem;
 }
+.theArticle3 .theSyntax p{
+    background: #203239;
+
+}
+
 
 .theFooter{
     padding-left: 5%;
