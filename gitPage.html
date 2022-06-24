@@ -208,14 +208,74 @@
             </p>
             <div class="theSyntax">
                 <p><span class="noTheSyntax">Example :</span>
-                git version
                 <br>
-                <span class="noTheSyntax">If Git is installed, it would show something like this: </span>
-                git version 2.36.1.windows.1
+                <span><</span>!DOCTYPE html<span>></span>
+                <br>
+                <span><</span>html<span>></span>
+                <br>
+                <span><</span>head<span>></span>
+                <br>
+                <span><</span>title<span>></span>Hello World!<span><</span>/title<span>></span>
+                <br>
+                <span><</span>/head<span>></span>
+                <br>
+                <span><</span>body<span>></span>
+                <br>
+                <br>
+                <span><</span>h1<span>></span>Hello world!<span><</span>/h1<span>></span>
+                <br>
+                <span><</span>p<span>></span>This is the first file in my new Git Repo.<span><</span>/p<span>></span>
+                <br>
+                <span><</span>/body<span>></span>
+                <br>
+                <span><</span>/html<span>></span>
+                <br>
                 </p>
             </div>
-            <p>If you don’t have it yet, follow the instructions on : <a href="https://git scm.com/downloads">https://git scm.com/downloads.</a> </p>
+            <p>And save it to our new folder as <span class="thisIsImpText">index.html</span>.
+                <br>
+                Let's go back to the terminal and list the files in our current working directory:
+            </p>
+            <div class="theSyntax">
+                <p><span class="noTheSyntax">Example :</span>
+                <br>
+                <span class="thisIsImpText">--> ls</span>
+                <br>
+                <span class="thisIsImpText">--> index.html</span>
+                <br>
             </div>
+            <p><span class="thisIsImpText">ls</span> will list the files in the directory. We can see that <span class="thisIsImpText">index.html</span> is there.
+            <br>
+            Then we check the Git <span class="thisIsImpText">status</span> and see if it is a part of our repo:
+            </p>
+            <div class="theSyntax">
+                <p><span class="noTheSyntax">Example :</span>
+                <br>
+                --> git status
+                <br>
+                <span class="noTheSyntax">On branch master</span>
+                <br><br>
+                <span class="noTheSyntax">No commits yet</span>
+                <br><br>
+                <span class="noTheSyntax">Untracked files:</span>
+                <br><br>
+                <span class="noTheSyntax">(use "git add ..." to include in what will be committed):</span>
+                <br>
+                <span class="noTheSyntax">index.html</span>
+                <br><br>
+                <span class="noTheSyntax">nothing added to commit but untracked files present (use "git add" to track)</span>
+                <br>
+                </p>
+            </div>
+            <p>Now Git is aware of the file, but has not added it to our repository!
+            <br><br>
+            Files in your Git repository folder can be in one of 2 states:
+            <br><br>
+            <span class="thisIsImpText">Tracked</span>  - files that Git knows about and are added to the repository 
+            <br>
+            <span class="thisIsImpText">Untracked</span>  - files that are in your working directory, but not added to the repository
+            <br><br>
+            When you first add files to an empty repository, they are all untracked. To get Git to track them, you need to stage them, or add them to the staging environment.
         </div>
 
         <div class="theFooter">

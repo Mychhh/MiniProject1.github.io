@@ -187,6 +187,9 @@ hr{
 .ArticleHeader h2{
     font-size: 1.5rem;
 }
+.thisIsImpText{
+    color: #E0DDAA;
+}
 
 /*article1*/
 .theArticle1{
@@ -198,7 +201,7 @@ hr{
     margin: 1rem;
     border-radius: 10px;
 }
-.theArticle1 p{
+.theArticle1 p, .theArticle2 p, .theArticle3 p, .theArticle4 p, .theArticle5 p{
     text-align: justify;
     background: #38444d;
     padding: 1rem;
@@ -228,11 +231,7 @@ hr{
     margin: 1rem;
     border-radius: 10px;
 }
-.theArticle2 p{
-    text-align: justify;
-    background: #38444d;
-    padding: 1rem;
-}
+
 .theParagraph{
     background: #38444d;
     border-radius: 10px;
@@ -269,11 +268,7 @@ hr{
     margin: 1rem;
     border-radius: 10px;
 }
-.theArticle3 p{
-    text-align: justify;
-    background: #38444d;
-    padding: 1rem;
-}
+
 .theArticle3 .theSyntax p{
     background: #203239;
 
@@ -288,11 +283,7 @@ hr{
     margin: 1rem;
     border-radius: 10px;
 }
-.theArticle4 p{
-    text-align: justify;
-    background: #38444d;
-    padding: 1rem;
-}
+
 .theArticle4 .theSyntax p{
     background: #203239;
 
@@ -308,11 +299,7 @@ hr{
     margin: 1rem;
     border-radius: 10px;
 }
-.theArticle5 p{
-    text-align: justify;
-    background: #38444d;
-    padding: 1rem;
-}
+
 .theArticle5 .theSyntax p{
     background: #203239;
 
