@@ -277,11 +277,165 @@
             <br><br>
             When you first add files to an empty repository, they are all untracked. To get Git to track them, you need to stage them, or add them to the staging environment.
         </div>
+        </div>
 
+        <div class="theArticle6">
+            <div class="ArticleHeader">
+            <h2>Git Staging Environment</h2>
+            </div>
+            <div class="theParagraph">
+            <p>One of the core functions of Git is the concepts of the Staging Environment, and the Commit.
+            <br>    
+            <br>   
+            As you are working, you may be adding, editing and removing files. But whenever you hit a milestone or finish a part of the work, you should add the files to a Staging Environment.
+            <br><br>
+            <b>Staged</b> files are files that are ready to be <b>committed</b> to the repository you are working on. You will learn more about <span class="thisIsImpText">commit</span> shortly.
+            <br><br>
+            For now, we are done working with <span class="thisIsImpText">index.html</span>. So we can add it to the Staging Environment:</p>
+            <div class="theSyntax">
+                <p><span class="noTheSyntax">Example :</span>
+                git add index.html
+                </p>
+            </div>
+            <p>
+                The file should be Staged. Let's check the status:
+            </p>
+            <div class="theSyntax">
+                <p><span class="noTheSyntax">Example :</span>
+                <br>
+                --> git init 
+                <br>
+                <span class="noTheSyntax">On branch master </span>
+                <br><br>
+                <span class="noTheSyntax">No commits yet</span>
+                <br><br>
+                <span class="noTheSyntax">Changes to be committed:</span>
+                <br>
+                <span class="noTheSyntax">(use "git rm --cached ..." to unstage)</span>
+                <br>
+                <span class="noTheSyntax">new file: index.html</span>
+                </p>
+            </div>
+            <p>
+                Now the file has been added to the Staging Environment.
+            </p>
+            </div>
+            <div class="ArticleHeader">
+                <h2>Git Add More than One File</h2>
+                </div>
+            <div class="theParagraph">
+                <p>You can also stage more than one file at a time. Let's add 2 more files to our working folder. Use the text editor again.
+                <br>    
+                <br>   
+                A <span class="thisIsImpText"> README.md</span>. file that describes the repository (recommended for all repositories):</p>
+                <div class="theSyntax">
+                    <p><span class="noTheSyntax">Example :</span>
+                    <br>
+                    <span class="noTheSyntax">#hello-world</span>
+                    <br>
+                    <span class="noTheSyntax">Hello World repository for Git tutorial</span>
+                    <br>
+                    <span class="noTheSyntax">This is an example repository for the Git tutoial on https://www.w3schools.com</span>
+                    <br>
+                    <br>
+                    <span class="noTheSyntax">This repository is built step by step in the tutorial.</span>
+                    </p>
+                </div>
+                <p>
+                    basic external style sheet  <span class="thisIsImpText">(bluestyle.css)</span>:
+                </p>
+                <div class="theSyntax">
+                    <p><span class="noTheSyntax">Example :</span>
+                    <br>
+                    body {
+                    <br>
+                    background-color: lightblue;
+                    <br>
+                    }
+                    <br><br>
+                    h1 {
+                    <br>
+                    color: navy;
+                    <br>
+                    margin-left: 20px;
+                    <br>
+                    }
+                    </p>
+                </div>
+                <p>And update <span class="thisIsImpText">index.html</span> to include the stylesheet:
+                </p>
+                <div class="theSyntax">
+                    <p><span class="noTheSyntax">Example :</span>
+                    <br>
+                    <span><</span>!DOCTYPE html<span>></span>
+                    <br>
+                    <span><</span>html<span>></span>
+                    <br>
+                    <span><</span>head<span>></span>
+                    <br>
+
+                    <span><</span>title<span>></span>Hello World!<span><</span>/title<span>></span>
+
+                    <span><</span>link rel="stylesheet" href="bluestyle.css"<span>></span>
+                    <br>
+
+                    <span><</span>/head<span>></span>
+                    <br>
+
+                    <span><</span>body<span>></span>
+                    <br><br>
+                    
+                    <span><</span>h1<span>></span>Hello world!<span><</span>/h1<span>></span>
+                    <br>
+                    <span><</span>p<span>></span>This is the first file in my new Git Repo.<span><</span>/p<span>></span>
+                    <br><br>
+
+                    <span><</span>/body<span>></span>
+                    <br>
+                    <span><</span>/html<span>></span>
+                    <br>
+
+                    </p>
+                </div>
+                <p>Now add all files in the current directory to the Staging Environment:
+                </p>
+                <div class="theSyntax">
+                    <p><span class="noTheSyntax">Example :</span>
+                    git add --all
+                    </p>
+                </div>
+                <p>
+                    Using <span class="thisIsImpText">--all</span> instead of individual filenames will <span class="thisIsImpText">stage</span> all changes (new, modified, and deleted) files.  
+                </p>
+                <div class="theSyntax">
+                    <p><span class="noTheSyntax">Example :</span>
+                    <br>
+                    -->git status
+                    <br>
+                    <span class="noTheSyntax">On branch master</span>
+                    <br><br>
+                    <span class="noTheSyntax">No commits yet</span>
+                    <br><br>
+                    <span class="noTheSyntax">Changes to be committed:</span>
+                    <br>
+                    <span class="noTheSyntax">(use "git rm --cached ..." to unstage)</span>
+                    <br>
+                    <span class="noTheSyntax">new file:   README.mdspan>
+                    <br>
+                    <span class="noTheSyntax">new file:   README.md</span>
+                    <br>
+                    <span class="noTheSyntax">new file:   index.html</span>
+                    
+                    </p>
+                </div>
+                <p>
+                    Now all 3 files are added to the Staging Environment, and we are ready to do our first commit.
+                </p>
+            </div>
+        </div>
         <div class="theFooter">
             <h1>THIS IS FOOTER</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius non ullam voluptate! Amet dolor in asperiores velit, minus sapiente accusamus nobis nostrum quo odio ducimus nemo ab consectetur perspiciatis!</p>
         </div>
-    </div>
 </body>
 </html>

@@ -177,6 +177,7 @@ hr{
 
 }
 
+/*Article components modification*/
 .ArticleHeader{
     display: flex;
     justify-content: start;
@@ -191,6 +192,17 @@ hr{
     color: #E0DDAA;
 }
 
+.theSyntax .noTheSyntax{
+    color: #FFFFFF;
+}
+
+
+.theArticle1 p, .theArticle2 p, .theArticle3 p, .theArticle4 p, .theArticle5 p, .theArticle6 p{
+    text-align: justify;
+    background: #38444d;
+    padding: 1rem;
+}
+
 /*article1*/
 .theArticle1{
     grid-column: 2/3;
@@ -201,11 +213,7 @@ hr{
     margin: 1rem;
     border-radius: 10px;
 }
-.theArticle1 p, .theArticle2 p, .theArticle3 p, .theArticle4 p, .theArticle5 p{
-    text-align: justify;
-    background: #38444d;
-    padding: 1rem;
-}
+
 .theArticle1 img{
     display: block;
     margin-left: auto;
@@ -250,10 +258,6 @@ hr{
     border-radius: 10px;
 }
 
-.theSyntax .noTheSyntax{
-    color: #EEEDDE;
-}
-
 .theArticle2 a{
     color: #E0DDAA;
 }
@@ -273,6 +277,7 @@ hr{
     background: #203239;
 
 }
+
 /*article4*/
 .theArticle4{
     grid-column: 2/3;
@@ -305,9 +310,25 @@ hr{
 
 }
 
+/*article6*/
+.theArticle6{
+    grid-column: 2/3;
+    grid-row: 7/8;
+
+    padding: 1.5rem;
+    background: #141E27;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.theArticle6 .theSyntax p{
+    background: #203239;
+
+}
+
 .theFooter{
     padding-left: 5%;
     padding-right: 5%;
     grid-column: 2/3;
-    grid-row: 7/8;
+    
 }
