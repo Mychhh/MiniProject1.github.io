@@ -196,8 +196,7 @@ hr{
     color: #FFFFFF;
 }
 
-
-.theArticle1 p, .theArticle2 p, .theArticle3 p, .theArticle4 p, .theArticle5 p, .theArticle6 p{
+.theArticle1 p, .theArticle2 p, .theArticle3 p, .theArticle4 p, .theArticle5 p, .theArticle6 p, .theArticle7 p, .theArticle8 p{
     text-align: justify;
     background: #38444d;
     padding: 1rem;
@@ -211,7 +210,6 @@ hr{
     padding: 1.5rem;
     background: #141E27;
     margin: 1rem;
-    border-radius: 10px;
 }
 
 .theArticle1 img{
@@ -237,7 +235,6 @@ hr{
     padding: 1.5rem;
     background: #141E27;
     margin: 1rem;
-    border-radius: 10px;
 }
 
 .theParagraph{
@@ -270,7 +267,6 @@ hr{
     padding: 1.5rem;
     background: #141E27;
     margin: 1rem;
-    border-radius: 10px;
 }
 
 .theArticle3 .theSyntax p{
@@ -286,7 +282,6 @@ hr{
     padding: 1.5rem;
     background: #141E27;
     margin: 1rem;
-    border-radius: 10px;
 }
 
 .theArticle4 .theSyntax p{
@@ -302,8 +297,11 @@ hr{
     padding: 1.5rem;
     background: #141E27;
     margin: 1rem;
-    border-radius: 10px;
 }
+.theArticle5 a{
+    color: #E0DDAA;
+}
+
 
 .theArticle5 .theSyntax p{
     background: #203239;
@@ -318,12 +316,25 @@ hr{
     padding: 1.5rem;
     background: #141E27;
     margin: 1rem;
-    border-radius: 10px;
 }
 
-.theArticle6 .theSyntax p{
-    background: #203239;
+/*article7*/
+.theArticle7{
+    grid-column: 2/3;
+    grid-row: 8/9;
 
+    padding: 1.5rem;
+    background: #141E27;
+    margin: 1rem;
+}
+/*article8*/
+.theArticle8{
+    grid-column: 2/3;
+    grid-row: 9/10;
+
+    padding: 1.5rem;
+    background: #141E27;
+    margin: 1rem;
 }
 
 .theFooter{

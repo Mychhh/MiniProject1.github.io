@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.theHamburger{
+    display: block;
+    color: #E0DDAA;
+}
+
 .landing-page{
     position: relative;
     height: 90vh;
