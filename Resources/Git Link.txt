@@ -23,3 +23,5 @@ https://bryllim.medium.com/adding-a-messenger-chat-plugin-on-your-website-4fa546
 #E0DDAA - Background of text
 #141E27 - Layouts 
 #203239 - Components
+
+	≥576px sm

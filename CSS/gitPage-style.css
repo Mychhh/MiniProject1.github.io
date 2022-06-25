@@ -21,9 +21,15 @@
     border-bottom: 2px solid #141E27;
     padding-right: 5%;
 }
-.B13{
+.theHeader  .B13{
     font-size: 1.5rem;
     color: #E0DDAA;
+}
+.theHeader button{
+    display: none;
+}
+.theTitle a{
+    display: none;
 }
 
 .theNav{
@@ -62,7 +68,7 @@
 .fa-solid{
     color: #E0DDAA;
 }
-.fa-solid:hover{
+.theLI .fa-solid:hover{
     color: #EEEDDE;
     padding-left: 1rem;
     transition: all .2s linear;
@@ -342,4 +348,56 @@ hr{
     padding-right: 5%;
     grid-column: 2/3;
     
+}
+
+/*the components will change*/
+@media screen and (max-width: 576px){
+
+.theHeader{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-left: 0;
+
+    background: #203239;
+}
+.theHeader .B13{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.theTitle h1{
+    display: inline;
+}
+.theTitle a{
+    display: inline;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 0.2rem;
+}
+.theHeader a{
+    color: #EEEDDE;
+}
+.theHeader button{
+    display:flex;
+}
+.theNav{
+    display: none;
+}
+.theLI{
+    margin-bottom: 0;
+    text-align: start;
+    padding-left: 1.2rem;
+}
+.theLI .fa-solid{
+    padding-right: 0.5rem;
+}
+
+.theAside{
+    display: none;
+}
+.theHeader, .theArticle1, .theArticle2, .theArticle3, .theArticle4, .theArticle5, .theArticle6, .theArticle7, .theArticle8{
+    grid-column: 1/4;
+}
 }
