@@ -211,7 +211,6 @@ hr{
 /*article1*/
 .theArticle1{
     grid-column: 2/3;
-    grid-row: 2/3;
 
     padding: 1.5rem;
     background: #141E27;
@@ -236,7 +235,6 @@ hr{
 /*article2*/
 .theArticle2{
     grid-column: 2/3;
-    grid-row: 3/4;
 
     padding: 1.5rem;
     background: #141E27;
@@ -268,7 +266,6 @@ hr{
 /*article3*/
 .theArticle3{
     grid-column: 2/3;
-    grid-row: 4/5;
 
     padding: 1.5rem;
     background: #141E27;
@@ -283,7 +280,6 @@ hr{
 /*article4*/
 .theArticle4{
     grid-column: 2/3;
-    grid-row: 5/6;
 
     padding: 1.5rem;
     background: #141E27;
@@ -298,7 +294,6 @@ hr{
 /*article5*/
 .theArticle5{
     grid-column: 2/3;
-    grid-row: 6/7;
 
     padding: 1.5rem;
     background: #141E27;
@@ -317,7 +312,6 @@ hr{
 /*article6*/
 .theArticle6{
     grid-column: 2/3;
-    grid-row: 7/8;
 
     padding: 1.5rem;
     background: #141E27;
@@ -327,7 +321,6 @@ hr{
 /*article7*/
 .theArticle7{
     grid-column: 2/3;
-    grid-row: 8/9;
 
     padding: 1.5rem;
     background: #141E27;
@@ -336,7 +329,6 @@ hr{
 /*article8*/
 .theArticle8{
     grid-column: 2/3;
-    grid-row: 9/10;
 
     padding: 1.5rem;
     background: #141E27;
@@ -395,8 +387,59 @@ hr{
 }
 
 .theAside{
+    grid-column: 1/4;
+    grid-row: 2/3;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: static;
+
+    height: 60%;
+    
+    top: 0;
+    left: 0;
+
+    border-left: 2px solid #141E27;
+}
+
+.theAside .searchBar{
     display: none;
 }
+
+.theAside .profileStatus{
+    position: relative;
+
+    grid-column: 1/2;
+
+    display: grid;
+
+    border-left: 0;
+
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 0;
+
+}
+
+.theAside .theNButton{
+    grid-column: 2/3;
+}
+.theAside ul{
+    border-left: 0;
+}
+.theAside .theNButton .sectionButton{
+    box-sizing: inherit;
+    display: inherit;
+    width: fit-content;
+}
+.theAside .profileAvatar{
+    border-left: 0;
+}
+
+.theAside .asidePic{
+    display: none;
+}
+
 .theHeader, .theArticle1, .theArticle2, .theArticle3, .theArticle4, .theArticle5, .theArticle6, .theArticle7, .theArticle8{
     grid-column: 1/4;
 }
