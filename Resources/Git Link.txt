@@ -18,6 +18,9 @@ https://coursevania.com/courses/complete-figma-web-design-courseui-ux-design-wit
 -Adding a Messenger Chat Plugin on your Website
 https://bryllim.medium.com/adding-a-messenger-chat-plugin-on-your-website-4fa5466215c6
 
+-git yt taglish
+https://www.youtube.com/watch?v=qC1ImyGgaR0&list=PLRBUyvh6wWhFvChWeHi-qVToz6pLVFzVa
+
 -Colors
 #EEEDDE - For text
 #E0DDAA - Background of text

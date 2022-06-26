@@ -107,7 +107,8 @@ hr{
 .theNButton{
     box-sizing: border-box;
     margin: 1%;
-    display: inline;
+    display: block;;
+    padding-right: 7%;
 }
 
 .sectionButton{
@@ -334,7 +335,24 @@ hr{
     background: #141E27;
     margin: 1rem;
 }
+.theArticle8 .gitRepresentation{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 80%;
+}
 
+.theArticle8 .theResources p{
+    border-radius: 10px;
+}
+
+.theArticle8 .CarlosPanganiban{
+    max-width: 100px;
+    border-radius: 50%;
+
+}
 .theFooter{
     padding-left: 5%;
     padding-right: 5%;
@@ -344,6 +362,7 @@ hr{
 
 /*the components will change*/
 @media screen and (max-width: 576px){
+
 
 .theHeader{
     position: sticky;
@@ -377,6 +396,9 @@ hr{
 .theNav{
     display: none;
 }
+.theAside{
+    display: none;
+}
 .theLI{
     margin-bottom: 0;
     text-align: start;
@@ -386,61 +408,12 @@ hr{
     padding-right: 0.5rem;
 }
 
-.theAside{
-    grid-column: 1/4;
-    grid-row: 2/3;
-
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    position: static;
-
-    height: 60%;
-    
-    top: 0;
-    left: 0;
-
-    border-left: 2px solid #141E27;
-}
-
-.theAside .searchBar{
-    display: none;
-}
-
-.theAside .profileStatus{
-    position: relative;
-
-    grid-column: 1/2;
-
-    display: grid;
-
-    border-left: 0;
-
-    border-top: 0;
-    border-bottom: 0;
-    padding-top: 0;
-
-}
-
-.theAside .theNButton{
-    grid-column: 2/3;
-}
-.theAside ul{
-    border-left: 0;
-}
-.theAside .theNButton .sectionButton{
-    box-sizing: inherit;
-    display: inherit;
-    width: fit-content;
-}
-.theAside .profileAvatar{
-    border-left: 0;
-}
-
-.theAside .asidePic{
-    display: none;
-}
-
 .theHeader, .theArticle1, .theArticle2, .theArticle3, .theArticle4, .theArticle5, .theArticle6, .theArticle7, .theArticle8{
     grid-column: 1/4;
 }
+.theArticle8 img{
+    width: 100%;
 }
+
+}
+
