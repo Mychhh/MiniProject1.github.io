@@ -78,32 +78,6 @@ hr{
     color: #141E27;
 }
 
-.theAside{
-    grid-column: 3/4;
-
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 80%;
-
-    border-left: 2px solid #141E27;
-}
-.theAsideContent{
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    justify-content: space-around;
-
-    height: 50%;
-    width: 20%;
-    margin-top: 1%;
-    padding: 1%;
-    
-}
 .theNButton{
     box-sizing: border-box;
     margin: 1%;
@@ -160,6 +134,34 @@ hr{
         height: 10%;
     }
 }
+.theAside{
+    grid-column: 3/4;
+
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 80%;
+
+    border-left: 2px solid #141E27;
+}
+.theAsideContent{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    justify-content: space-around;
+
+    height: 50%;
+    width: 20%;
+    margin-top: 1%;
+    padding: 1%;
+    
+}
+
+
 .profile{
     width: 40%;
     border-radius: 60%;
@@ -177,12 +179,7 @@ hr{
     border-bottom: 2px solid #141E27;
     padding-top: 0.8rem;
 }
-.asidePic{
-    width: 20%;
-    display: flex;
-    flex-flow:nowrap;
 
-}
 
 /*Article components modification*/
 .ArticleHeader{
@@ -374,9 +371,10 @@ hr{
     top: 2.5rem;
 }
 .theFooter{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 1rem;
     grid-column: 2/3;   
+    text-align: center;
+    border-top: 2px solid #141E27;
 }
 
 /*the components will change*/
