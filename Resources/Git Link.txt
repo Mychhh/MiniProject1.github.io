@@ -4,6 +4,9 @@ https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
 https://www.w3schools.com/git/default.asp
 
+-git documentation
+https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049#d5e9c2b6379246a593c1ef74051e7e3c
+
 -git sir bryl
 https://medium.com/geekculture/learn-to-use-git-in-10-minutes-53e9a17bf8c2
 

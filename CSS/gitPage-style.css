@@ -344,20 +344,39 @@ hr{
     width: 80%;
 }
 
-.theArticle8 .theResources p{
-    border-radius: 10px;
+.theResources a{
+    text-decoration: none;
 }
 
+.Resources{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+.theArticle8 .theResources p{
+    border-radius: 10px;
+    grid-column: 1/2;
+    padding-top: 3rem;
+
+    text-align: center;
+
+    width: 100%;
+}
 .theArticle8 .CarlosPanganiban{
+    position: relative;
     max-width: 100px;
     border-radius: 50%;
+    grid-column: 2/3;
 
+    margin-top: -2.5rem;
+    top: 2.5rem;
 }
 .theFooter{
     padding-left: 5%;
     padding-right: 5%;
-    grid-column: 2/3;
-    
+    grid-column: 2/3;   
 }
 
 /*the components will change*/
