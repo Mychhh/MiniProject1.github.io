@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <link rel="stylesheet" href="./CSS/index-style.css">
+    <link rel="stylesheet" href="./CSS/login.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +16,11 @@
 
     <link rel="icon" type="image/x-icon" href="./Images/Favicon/favicon-16x16.png">
     <title>Full Tank Git Resource Website</title>
+
 </head>
+
 <body>
-    
-<div class="firstPage">
-    <div class="landing-page">
+    <div class="theContainer">
         <nav class = "theNavbar navbar navbar-expand-md px-4 py-3 shadow">
             
             <a href = "#" class="d-flex align-items-center theNavbarLogo">
@@ -52,43 +52,44 @@
                         <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Get started</a>
                     </li>
                     <li class = "nav-item active mx-2 lg-px-0 xxl-px-2">
-                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "login.html"> Login</a>
+                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Login</a>
                     </li>
                     <li class = "nav-item active mx-2">
-                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "signup.html"> Register</a>
+                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> Register</a>
                     </li>
                 </ul>
             </div>
             
         </nav>
+        <div class="landingPage">
+            <form action="#"></form>
+        </div>
+    </div>   
     
-        <section class="container theSection">
-            <div id="landingText">
-                <h1 class="mb-3">Organize your Code</h1>
-                <p>From web developers to app developers, Git is useful to anyone who writes code or track changes to files. So what’s it all about and why should you start using it? <a href="gitPage.html" id="checkItOut">Check it out.</a></p>
-                <div>
-                    <button type="button" class="btn sectionButton">Log-in</button>
-                    <button type="button" class="btn sectionButton">Sign Up</button>
-                </div>  
-            </div>
-            <img src="./Images/git33.png" class="img-fluid" id="gitPic" alt="git">
-        </section>
+    <div class="landing-page">
+        <div class="page">
+            <h2>Sign in to interact</h2>
+            <form action="#">
+              <div class="mb-3 mt-3">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" >
+              </div>
+              <div class="mb-3">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" >
+              </div>
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input bg-none" type="checkbox" name="remember" > Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
     </div>
-</div>
+
+    
 
 </body>
-<footer>
-    <div class="container containerFooter">
-        <p>Full Tank Online Web Resource is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. but I cannot warrant full correctness of all content. </p>
-    <div class="theIcons pb-1 justify-content-center">
-        <a href="#"><i class="iconFA px-2 fa-brands fa-facebook-square fa-2x"></i></a>
-        <a href="#"><i class="iconFA px-2 fa-brands fa-instagram-square fa-2x"></i></a>
-        <a href="#"><i class="iconFA px-2 fa-brands fa-linkedin fa-2x"></i></a>
-        <a href="#"><i class="iconFA px-2 fa-brands fa-git-alt fa-2x"></i></a>
-        <a href="#"><i class="iconFA px-2 fa-solid fa-envelope fa-2x"></i></a>
-        
-    </div>    
-    </div>
-</footer>
 
 </html>

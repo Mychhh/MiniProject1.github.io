@@ -6,3 +6,19 @@ https://youtu.be/8TyoihVGErI
 
 -flex
 https://semicolon.dev/tutorial/css/complete-css-flex-tutorial#:~:text=display%3Aflex%20Unlike%20many%20other%20CSS%20properties%2C%20in%20Flex,Elements%20placed%20inside%20this%20container%20are%20called%20items.
+
+            <div class="asideOther">
+                <p class="B13">Other Resources that you might like</p>
+                <div class="bottomContent">
+                    <p>HTML Documentation</p>
+                    <img src="./Images/w3School.jfif" alt="w3school">
+                </div>
+                <div class="bottomContent">
+                    <p>CSS Documentation</p>
+                    <img src="./Images/TutorialsPoint.jfif" alt="w3school">
+                </div>
+                <div class="bottomContent">
+                    <p>Bootstrap5 Documentation</p>
+                    <img src="./Images/bootstrap.png" alt="w3school">
+                </div>
+            </div>
