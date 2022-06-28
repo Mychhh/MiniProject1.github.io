@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./CSS/signup.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./Images/Favicon/favicon-16x16.png">
+    <title>Full Tank Git Resource Website</title>
+
+</head>
+
+<body>
+    <div class="theContainer">
+        <nav class = "theNavbar navbar navbar-expand-md px-4 py-3 shadow">
+            
+            <a href = "index.html" class="d-flex align-items-center theNavbarLogo">
+                <img src = "./Images/Icon/apple-touch-icon.png" width="60" alt = "Logo"> 
+                <h4 class="ms-3 theNavbarHeader">Home Page</h4>            
+            </a>
+    
+            <button
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNAV" 
+                aria-controls="navbarNAV" 
+                aria-expanded="false"   
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"><i class="theHamburger fa-solid fa-bars fa-1.5x"></i></span>       
+            </button>
+    
+            <div class = "collapse navbar-collapse" id ="navbarNAV">
+                <ul class = "navbar-nav ms-auto">
+                    <li class = "nav-item active mx-2 lg-px-0 xxl-px-2">
+                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "#"> About</a>
+                    </li>
+                    <li class = "nav-item active mx-2">
+                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "gitPage.html">Git Resource</a>
+                    </li>
+                    <li class = "nav-item active mx-2">
+                        <a class = "nav-link theNavbarText" id="theNavbarTextBG" href = "login.html"> Log in</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        <div class="landing-page">
+            <div class="theForm">
+             <h3 class="pb-2 pb-md-0">Register to interact</h3>
+             <form>
+               <div class="row">
+                 <div class="col-md-6 pb-2">
+     
+                   <div class="form-outline">
+                     <input type="text" id="firstName" class="form-control form-control-md" placeholder="First name" required/>
+                     <label class="form-label" for="firstName">First Name</label>
+                   </div>
+     
+                 </div>
+                 <div class="col-md-6 pb-2">
+     
+                   <div class="form-outline">
+                     <input type="text" id="lastName" class="form-control form-control-md" placeholder="Last name" required/>
+                     <label class="form-label" for="lastName">Last Name</label>
+                   </div>
+     
+                 </div>
+               </div>
+     
+               <div class="row">
+                 <div class="col-md-6 mb-4">
+     
+                   <h6 class="mb-2 pb-1">Gender: </h6>
+     
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                       value="option1" />
+                     <label class="form-check-label" for="femaleGender">Female</label>
+                   </div>
+     
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                       value="option2" />
+                     <label class="form-check-label" for="maleGender">Male</label>
+                   </div>
+     
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                       value="option3" />
+                     <label class="form-check-label" for="otherGender">Other</label>
+                   </div>
+     
+                 </div>
+               </div>
+     
+               <div class="row">
+                 <div class="col-md-6 pb-2">
+     
+                   <div class="form-outline">
+                     <input type="email" id="emailAddress" class="form-control form-control-md" placeholder="kodego@gmail.com" required/>
+                     <label class="form-label" for="emailAddress">Email</label>
+                   </div>
+     
+                 </div>
+                 <div class="col-md-6 pb-2">
+     
+                   <div class="form-outline">
+                     <input type="tel" id="phoneNumber" class="form-control form-control-md" placeholder="09657107290" required/>
+                     <label class="form-label" for="phoneNumber">Phone Number</label>
+                   </div>
+     
+                 </div>
+               </div>
+                 
+               <div class="pt-2">
+                 <input class="btn btn-md" type="submit" value="Submit" />
+               </div>
+     
+             </form>
+            </div>
+     
+         </div>
+    </div>   
+
+</body>
+
+</html>
