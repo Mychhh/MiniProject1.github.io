@@ -80,14 +80,6 @@
     grid-column: 1/3;
 }
 
-.sectionButton{
-    background: #E0DDAA;
-}
-
-.sectionButton:hover{
-    background: #141E27;
-    color: #EEEDDE;
-}
 
 #gitPic{
     grid-column: 2/3;

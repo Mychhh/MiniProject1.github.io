@@ -136,6 +136,9 @@ hr{
         width: 100%;
         height: 10%;
     }
+    .theNButton a{
+        text-decoration: none;
+    }
 }
 .theAside{
     grid-column: 3/4;
@@ -366,7 +369,7 @@ hr{
 }
 
 .allResources p{
-    height: 10rem;
+    height: 8rem;
 }
 
 .theArticle8 .CarlosPanganiban{
@@ -387,6 +390,11 @@ hr{
 .allResources, div:nth-child(3){
     margin-top: 0.7rem;
 }
+@media screen and (min-width: 458px) and (max-width: 780px) {
+    .allResources p{
+        height: 12rem;
+    }
+}
 
 .theFooter{
     padding: 1rem;
@@ -399,7 +407,7 @@ hr{
         grid-template-columns:1fr;
     }
     .theResources p{
-        height: 5rem;
+        height: 4.5rem;
     }
 }
 /*the components will change*/
@@ -462,4 +470,3 @@ hr{
 }
 
 }
-

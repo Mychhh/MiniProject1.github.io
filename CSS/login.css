@@ -15,6 +15,7 @@
     background-color: #203239;
 }
 
+
 .navbar-toggler span {
     padding:7px;
 }
@@ -61,7 +62,7 @@
     border: 2px solid #69685A;
     border-radius: 10px;
     padding: 5rem;
-    width: 50%;
+    width: 60%;
 }   
 
 .page h2, label{
@@ -79,3 +80,9 @@
     outline: none;
 
 }   
+
+@media screen and (max-width: 764px) {
+    .page form{
+        width: 90%;
+    }   
+}
