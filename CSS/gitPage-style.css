@@ -429,6 +429,7 @@ hr{
     text-align: center;
     border-top: 2px solid #141E27;
 }
+/*Mobile size*/
 @media screen and (max-width: 456px) {
     .allResources{
         grid-template-columns:1fr;
@@ -436,6 +437,7 @@ hr{
     .theResources p{
         height: 4.5rem;
     }
+
 }
 /*the components will change*/
 @media screen and (max-width: 576px){
@@ -504,10 +506,17 @@ hr{
 .theHeader, .theArticle1, .theArticle2, .theArticle3, .theArticle4, .theArticle5, .theArticle6, .theArticle7, .theArticle8{
     grid-column: 1/4;
 }
+
 .theArticle8 img{
     width: 100%;
 }
-
+.theArticle8 .CarlosPanganiban{
+    position: static;
+    margin-top: 0;
+}
+.theArticle8 p{
+    padding: 1rem;
+}
 .theFooter{
     grid-column: 1/4;
 }
