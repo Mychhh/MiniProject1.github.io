@@ -179,9 +179,6 @@ hr{
 .theAsideContent{
     box-sizing: border-box;
 
-    display: flex;
-    flex-direction: column;
-    align-items: start;
     justify-content: center;
     justify-content: space-around;
 
@@ -189,7 +186,6 @@ hr{
     width: 20%;
     margin-top: 1%;
     padding: 1%;
-    
 }
 
 
@@ -388,7 +384,6 @@ hr{
 .theArticle8 p{
     border-radius: 10px;
     grid-column: 1/2;
-    padding-top: 3rem;
 
     text-align: center;
 
@@ -397,6 +392,7 @@ hr{
 
 .allResources p{
     height: 8rem;
+    padding-top: 3rem;
 }
 
 .theArticle8 .CarlosPanganiban{
