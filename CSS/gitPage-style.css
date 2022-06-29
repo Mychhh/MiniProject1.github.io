@@ -15,11 +15,7 @@
 
 .theHeader{
     grid-column: 2/3;
-
-    padding-left: 5%;
-    margin-top: 1%;
     border-bottom: 2px solid #141E27;
-    padding-right: 5%;
 }
 .theHeader a{
     text-decoration: none;
@@ -31,10 +27,20 @@
 .theHeader button{
     display: none;
 }
+.theTitle{
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
 .theTitle a{
     display: none;
 }
-
+.theNavbar{
+    display: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .theNav{
     grid-column: 1/2;
 
@@ -415,6 +421,12 @@ hr{
 /*the components will change*/
 @media screen and (max-width: 576px){
 
+.theTitle{
+    padding-left: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0;
+}
+
 
 .theHeader{
     position: sticky;
@@ -422,11 +434,15 @@ hr{
     bottom: 0;
     right: 0;
     left: 0;
-    padding-left: 0;
 
     background: #203239;
 }
+.theNavbar{
+    display: flex;
+    width: 100%;
+}
 .theHeader .B13{
+    display: none;
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
