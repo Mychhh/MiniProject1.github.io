@@ -1,0 +1,11 @@
+JavaScript and the DOM
+JavaScript Objects
+String Methods
+Array Methods
+Document Object Model (DOM
+DOM
+1. Get elements
+2. Methods & Properties
+3. Event Listeners
+
+google ads
