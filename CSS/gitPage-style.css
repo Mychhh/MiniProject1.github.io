@@ -81,7 +81,7 @@
 .navIcon:hover{
     transition: all .2s linear;
 }
-
+.nav-link:focus, .nav-link:hover{color: #E0DDAA;}
 .theUL{
     display: block;
     padding-left: 0;
