@@ -7,7 +7,6 @@
 body{
     overflow-x: hidden;
 }
-
 .theHamburger{
     display: block;
     color: #FFFFFF;
@@ -90,6 +89,7 @@ footer{
     bottom: 0;
     z-index: 2;
 }
+.theIcons{padding-left: 2%;}
 .iconFA{
     color: #FFFFFF;
 }
