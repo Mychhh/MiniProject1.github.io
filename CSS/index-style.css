@@ -4,152 +4,111 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
+
 .theHamburger{
     display: block;
-    color: #E0DDAA;
+    color: #FFFFFF;
 }
-
-.landing-page{
-    position: relative;
-    height: 90vh;
-
-    background-image: linear-gradient(45deg,  #203239, #141E27, #69685A);
-    /*background-color: #203239;*/
-}
-
-.theNavbar{
-    background-color: #203239;
-}
-
 .navbar-toggler span {
     padding:7px;
 }
-
+.theNavbar{
+    z-index: 2;
+}
 .theNavbarLogo{
-    color: #EEEDDE;
+    color: #FFFFFF;
     text-decoration: none;
 }
 .theNavbarLogo:hover{
-    color: #E0DDAA;
-    text-decoration: underline;
+    color: #FFFFFF;
 }
-
 .theNavbarText{
-   color: #EEEDDE;
+   color: #FFFFFF;
    border-radius: 5px;
    font-size: large;    
 }
-#theNavbarTextBG:hover
-{
-    color: #203239;
-    background-color: #E0DDAA;
+#theNavbarTextBG:hover{
+    color: #FFFFFF;
+    background-color: #06283D;
     padding-top: 6px;
     transition: all .2s linear;
     border-radius:10px;
 }
-
-#landingText p{
-    color: #EEEDDE; 
-    font-size: 18px;
+.landing-page{
+    box-sizing: border-box;
 }
-
-#landingText h1{
-    color: #EEEDDE; 
-    font-size: 50px;
-}
-
-.theSection{
-    display: grid;
-    grid-template-columns: 60% 40%;
-
-    height: 350px;
-    column-gap: 10px;
-
-    padding-top: 6rem;
-}
-
-#checkItOut{
-    color: #E0DDAA;
-}
-#checkItOut:hover
-{
-    color: whitesmoke;
-}
-
-#LandingText{
-    grid-column: 1/3;
-}
-
-
-#gitPic{
-    grid-column: 2/3;
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
     object-fit: cover;
 }
+section{
+    position: relative;
+    align-items: center;
+    z-index: 2; 
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 8%;
+    height: 75vh;
+}
+section h1{
+    font-size: 5rem;
+}
+section p{
+    position: absolute;
+    width: 70%;
+    padding: auto;
+    margin-left: 15%;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+button{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+button:hover{background-color: #000000;}
 
 footer{
+    position: relative;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px;
     font-size: 15px;
-    color: #EEEDDE;
-    background-color: #203239;
+    color: #FFFFFF;
+    bottom: 0;
+    z-index: 2;
 }
-
-
 .iconFA{
-    color: #E0DDAA;
+    color: #FFFFFF;
 }
 .iconFA:hover{
-    color: #EEEDDE;
-}
-/*When user is in md size screen*/
-@media screen and (min-width: 376px) and (max-width: 600px) {
-    .theSection{
-        grid-template-columns: 1fr;
-        padding-top: 2rem;
-    }
-
-    #LandingText{
-        grid-column: 1/2;
-        grid-row: 1/2;
-        text-align:center;
-    }
-    #LandingTextp, p, h1{
-        text-align:start;
-    }
-    
-    #gitPic{
-        grid-column: 1/2;
-        grid-row: 2/3;
-        padding-top: 0px;
-        height: 20rem;
-        padding-left: 5rem;
-    }
-
-
-}
-/*for extra samll screen*/
-@media screen and (max-width: 415px) {
-    
-    .theSection{
-        padding-top: 2rem;
-    }
-}
-@media screen and (min-width: 376px) {
-    #gitPic{
-        padding-left: 5rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        column-gap: 30px;
-    }
+    color: #06283D;
 }
 
-@media screen and (max-width: 360px) {
-    .sectionButton{
-        margin-top: 40px;
-    }    
-
-    #gitPic{
-        padding-top: 5rem;
+@media screen and (max-width: 765px) {
+    section{
+        height: 70vh;
+    }
+    section p{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 500px) {
+    section h1{
+        font-size: 3rem;
+        margin-top: 4rem;
     }
 }
