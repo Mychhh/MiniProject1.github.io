@@ -18,7 +18,6 @@ body{
 .navbar-toggler span {
     padding:7px;
 }
-
 .theNavbarLogo{
     color: #FFFFFF;
     text-decoration: none;
@@ -47,7 +46,9 @@ body{
     align-items: center;
     flex-direction: column;
 }
-
+.page img{
+    object-fit: cover;
+}
 .page form{
     background: #06283D;
     border-radius: 10px;
