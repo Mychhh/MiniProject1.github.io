@@ -13,6 +13,7 @@ body{
 }
 .theNavbar{
     z-index: 2;
+    background-color: #224856;
 }
 
 .navbar-toggler span {

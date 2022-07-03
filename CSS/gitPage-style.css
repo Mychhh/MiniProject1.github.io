@@ -229,7 +229,7 @@ hr{
     font-size: 1.5rem;
 }
 .thisIsImpText{
-    color: #E0DDAA;
+    color: #0d6efd;
 }
 
 .theSyntax .noTheSyntax{
@@ -290,7 +290,7 @@ hr{
 }
 .theSyntax p{
     background: #224856;
-    color: #E0DDAA;
+    color: #0d6efd;
     border-radius: 10px;
 }
 
@@ -326,9 +326,6 @@ hr{
     margin: 1rem;
     z-index: 2;
     border-bottom: 2px solid #141E27;
-}
-.theArticle5 a{
-    color: #E0DDAA;
 }
 
 /*article6*/
@@ -418,6 +415,9 @@ hr{
     .allResources p{
         height: 12rem;
     }
+    .theAsideContent h4 {
+        font-size: 1rem;
+    }
 }
 
 .theFooter{
@@ -438,7 +438,6 @@ hr{
 }
 /*the components will change*/
 @media screen and (max-width: 576px){
-
 .theTitle{
     padding-left: 1.5rem;
     padding-top: 0rem;

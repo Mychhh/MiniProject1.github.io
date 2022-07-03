@@ -6,6 +6,11 @@
 }
 body{
     overflow-x: hidden;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 .theHamburger{
     display: block;
@@ -54,7 +59,6 @@ section{
     font-size: 1.5rem;
     text-align: center;
     padding-top: 8%;
-    height: 75vh;
 }
 section h1{
     font-size: 5rem;
@@ -88,6 +92,8 @@ footer{
     color: #FFFFFF;
     bottom: 0;
     z-index: 2;
+
+    margin-top: auto;
 }
 .theIcons{padding-left: 2%;}
 .iconFA{
@@ -106,9 +112,23 @@ footer{
         margin-left: 10%;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 376px) and (max-width: 500px) {
+    section{height: 52vh;}
     section h1{
-        font-size: 3rem;
-        margin-top: 4rem;
+        font-size: 2rem;
+        margin-top: 2rem;
     }
+    p{font-size: 1rem;}
+}
+@media screen and (max-width: 376px) {
+    section h1{
+        font-size: 2rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    p{font-size: 0.8rem;}
+
+    .iconFA{font-size: 1.3rem;}
+
+    section{height: 65vh;}
 }

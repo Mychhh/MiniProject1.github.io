@@ -22,7 +22,10 @@ body{
 .navbar-toggler span {
     padding:7px;
 }
-.theNavbar{z-index: 2;}
+.theNavbar{
+    z-index: 2;
+    background-color: #224856;
+}
 .theNavbarLogo{
     color: #FFFFFF;
     text-decoration: none;
