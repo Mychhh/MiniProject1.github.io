@@ -112,6 +112,16 @@ hr{
     color: #141E27;
 }
 
+.btn2{
+    background-color: transparent !important;
+    color: #EEEDDE !important;
+    border: 2px solid #EEEDDE;
+}
+
+.btn2:hover{
+    border: 2px solid #06283D;
+}
+
 .theNButton{
     box-sizing: border-box;
     margin: 1%;
@@ -121,8 +131,15 @@ hr{
 
 .sectionButton{
     margin-top: 2rem;
-    background: #06283D;
-    color: #EEEDDE;
+    background: #EEEDDE;
+    color: #000000;
+}
+
+
+.sectionButton .bg-secondary{
+    margin-top: 2rem;
+    background: transparent;
+    color: #000000;
 }
 
 .sectionButton:hover{
@@ -229,7 +246,7 @@ hr{
     font-size: 1.5rem;
 }
 .thisIsImpText{
-    color: #0d6efd;
+    color: #42ab52;
 }
 
 .theSyntax .noTheSyntax{
@@ -290,7 +307,7 @@ hr{
 }
 .theSyntax p{
     background: #224856;
-    color: #0d6efd;
+    color: #42ab52;
     border-radius: 10px;
 }
 
